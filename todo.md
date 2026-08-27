@@ -22,7 +22,12 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
-- [ ] Implement all routes with shared navigation and footer.
+- [x] Add a Services & Pricing page with Basic, Standard, Premium, and Custom Project options.
+- [x] Use Nigerian Naira starting-from prices and clarify that scope, revisions, integrations, content, and timeline affect final pricing.
+- [x] Include package pricing for Branding, Web, Shopify, Book Writing/Editing/Publishing, Content/Copywriting, and Data Analytics.
+- [x] Add a truthful Client Testimonials page/section using “Client stories coming soon” until genuine testimonials are supplied.
+- [x] Expand Contact with quick WhatsApp/email options and a detailed project inquiry form.
+- [ ] Implement all routes with shared navigation and footer, including Services & Pricing and Client Testimonials.
 - [ ] Implement portfolio category filtering and case-study navigation.
-- [ ] Implement email, WhatsApp, and mobile contact actions.
+- [ ] Implement email, WhatsApp, mobile contact actions, pricing CTAs, and inquiry form submission behavior.
 - [ ] Validate responsive layouts and all route/interaction states.

@@ -130,7 +130,38 @@ h1 span, h2 span { color: var(--orange); }
 .contact-details a:hover { color: var(--orange); }
 .contact-details p { margin: 0; color: var(--white); }
 .contact-details small { color: #64646b; }
+.pricing { padding-top: 70px; }
+.price-group { margin-bottom: 84px; }
+.price-group-head { display: flex; justify-content: space-between; gap: 30px; align-items: flex-end; border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 15px; }
+.price-group-head > p:last-child { color: var(--muted); max-width: 390px; margin: 0; font-size: 13px; line-height: 1.5; }
+.price-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.price-card { background: var(--panel); border: 1px solid transparent; padding: 25px; min-height: 330px; display: flex; flex-direction: column; transition: border-color .2s ease, transform .2s ease; }
+.price-card:hover, .price-card.featured { border-color: var(--orange); transform: translateY(-4px); }
+.price-card-top { display: flex; justify-content: space-between; color: var(--muted); text-transform: uppercase; font-size: 10px; letter-spacing: .12em; }
+.price-card-top b { color: var(--orange); font-size: 9px; font-weight: 600; }
+.price-card > strong { font: 500 35px 'Space Grotesk'; letter-spacing: -.06em; margin: 30px 0 10px; }
+.price-card h3 { font-size: 21px; font-weight: 500; margin-bottom: 12px; }
+.price-card p { color: var(--muted); font-size: 13px; line-height: 1.6; margin: 0; }
+.price-card a { color: var(--orange); display: inline-flex; align-items: center; gap: 7px; text-transform: uppercase; letter-spacing: .1em; font-size: 10px; margin-top: auto; padding-top: 22px; }
+.custom-quote { padding: 85px clamp(20px, 8vw, 128px); background: var(--orange); color: #16100d; }
+.custom-quote h2 { font-size: clamp(35px, 5vw, 62px); max-width: 930px; line-height: 1; margin: 20px 0 35px; font-weight: 500; }
+.custom-quote h2 span { color: #fff1e6; }
+.custom-quote small { display: block; margin-top: 24px; max-width: 650px; font-size: 11px; line-height: 1.55; color: #703b24; }
+.testimonials-empty { min-height: 520px; background: #101013; }
+.empty-mark { color: var(--orange); font: 100px/1 Georgia, serif; height: 95px; }
+.testimonials-empty h2 { font-size: clamp(38px, 5vw, 70px); font-weight: 500; max-width: 760px; margin: 22px 0 20px; }
+.testimonials-empty > p:not(.eyebrow) { color: var(--muted); line-height: 1.7; max-width: 570px; }
+.testimonials-empty > div:last-child { display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap; }
+.contact-details.compact { margin-top: 45px; }
+.inquiry-form { background: var(--panel); padding: 29px; border-top: 2px solid var(--orange); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.inquiry-form label { display: flex; flex-direction: column; gap: 8px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 17px; }
+.inquiry-form input, .inquiry-form select, .inquiry-form textarea { width: 100%; border: 1px solid var(--line); background: #0d0d0f; padding: 13px; color: var(--white); font: 13px 'DM Sans'; outline: none; resize: vertical; text-transform: none; letter-spacing: 0; }
+.inquiry-form input:focus, .inquiry-form select:focus, .inquiry-form textarea:focus { border-color: var(--orange); }
+.inquiry-form .button { margin-top: 4px; }
+.form-success { color: #75db95; font-size: 12px; display: flex; align-items: center; gap: 7px; margin: 17px 0 0; }
 @keyframes rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 @media (prefers-reduced-motion: reduce) { *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
-@media (max-width: 800px) { .site-header { height: 72px; } .brand-lockup img { width: 145px; height: 48px; } .menu-toggle { display: block; background: transparent; } .main-nav { display: none; position: absolute; top: 71px; left: 0; right: 0; padding: 22px 20px 28px; background: #0b0b0d; border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 18px; } .main-nav.open { display: flex; } .main-nav .nav-cta { margin-top: 4px; } .home-hero { grid-template-columns: 1fr; padding-top: 75px; } .hero-visual { min-height: 300px; width: calc(100% - 24px); margin: 0 auto; } .hero-visual img { min-height: 290px; } .featured-grid, .portfolio-grid { grid-template-columns: repeat(2, 1fr); } .project-image { height: 240px; } .footer { grid-template-columns: 1fr 1fr; gap: 46px 28px; } .footer > div:first-child { grid-column: 1 / -1; } .about-grid, .process, .contact-grid { grid-template-columns: 1fr; gap: 55px; } .services-grid { grid-template-columns: 1fr; } .case-study-hero { grid-template-columns: 1fr; } .case-study-hero img { min-height: 300px; } .case-study-hero > div { padding: 38px 25px; } .case-study-body { grid-template-columns: 1fr; gap: 25px; } }
+@media (max-width: 800px) { .price-cards { grid-template-columns: 1fr; } .price-card { min-height: 260px; } .price-group-head { display: block; } .price-group-head > p:last-child { margin-top: 13px; } .form-row { grid-template-columns: 1fr; gap: 0; } .inquiry-form { padding: 21px; }
+ .site-header { height: 72px; } .brand-lockup img { width: 145px; height: 48px; } .menu-toggle { display: block; background: transparent; } .main-nav { display: none; position: absolute; top: 71px; left: 0; right: 0; padding: 22px 20px 28px; background: #0b0b0d; border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 18px; } .main-nav.open { display: flex; } .main-nav .nav-cta { margin-top: 4px; } .home-hero { grid-template-columns: 1fr; padding-top: 75px; } .hero-visual { min-height: 300px; width: calc(100% - 24px); margin: 0 auto; } .hero-visual img { min-height: 290px; } .featured-grid, .portfolio-grid { grid-template-columns: repeat(2, 1fr); } .project-image { height: 240px; } .footer { grid-template-columns: 1fr 1fr; gap: 46px 28px; } .footer > div:first-child { grid-column: 1 / -1; } .about-grid, .process, .contact-grid { grid-template-columns: 1fr; gap: 55px; } .services-grid { grid-template-columns: 1fr; } .case-study-hero { grid-template-columns: 1fr; } .case-study-hero img { min-height: 300px; } .case-study-hero > div { padding: 38px 25px; } .case-study-body { grid-template-columns: 1fr; gap: 25px; } }
 @media (max-width: 520px) { .section-top { display: block; } .section-top .arrow-link { margin-top: 26px; } .featured-grid, .portfolio-grid { grid-template-columns: 1fr; } .project-image { height: 275px; } .hero-trust { line-height: 2; } .footer { grid-template-columns: 1fr; } .footer-base { flex-direction: column; } .page-intro { padding-bottom: 60px; } .case-sections > div { grid-template-columns: 1fr; gap: 10px; } .service-preview a { grid-template-columns: 37px 1fr auto; gap: 10px; } }
