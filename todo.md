@@ -22,6 +22,10 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Add international currency localization to the Pricing page.
+- [x] Use fixed studio-controlled display rates for the first release; live exchange rates can be added later if desired.
+- [x] Support NGN, USD, GBP, EUR, CAD, AUD, GHS, KES, and ZAR with a clear final-quote disclaimer.
+- [x] Detect a browser locale where supported and allow visitors to choose their currency manually.
 - [x] Add a Services & Pricing page with Basic, Standard, Premium, and Custom Project options.
 - [x] Use Nigerian Naira starting-from prices and clarify that scope, revisions, integrations, content, and timeline affect final pricing.
 - [x] Include package pricing for Branding, Web, Shopify, Book Writing/Editing/Publishing, Content/Copywriting, and Data Analytics.
@@ -34,6 +38,7 @@
 - [x] Make the portfolio gallery feel like a curated professional studio presentation rather than a generic sample list.
 - [ ] Implement email, WhatsApp, mobile contact actions, pricing CTAs, and inquiry form submission behavior.
 - [x] Validate the upgraded professional project gallery on the rendered desktop route; mobile layout remains covered by the existing responsive CSS pass.
+- [x] Validate the currency selector and converted prices on a responsive mobile Pricing render; desktop layout inherits the same component styles.
 - [x] Review The Art of Sports Comics, Introduction, and Sport Nutrition Manuscript PDFs for showcase-worthy pages and accurate descriptions.
 - [ ] Confirm the uploaded book samples may be displayed publicly and whether author/client attribution should be shown.
 - [x] Create web-ready first-page preview images and downloadable PDF links outside the project directory.
