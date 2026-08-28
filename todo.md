@@ -31,3 +31,8 @@
 - [ ] Implement portfolio category filtering and case-study navigation.
 - [ ] Implement email, WhatsApp, mobile contact actions, pricing CTAs, and inquiry form submission behavior.
 - [ ] Validate responsive layouts and all route/interaction states.
+- [x] Review The Art of Sports Comics, Introduction, and Sport Nutrition Manuscript PDFs for showcase-worthy pages and accurate descriptions.
+- [ ] Confirm the uploaded book samples may be displayed publicly and whether author/client attribution should be shown.
+- [x] Create web-ready first-page preview images and downloadable PDF links outside the project directory.
+- [x] Add a dedicated real book-work showcase to the portfolio and/or Services & Pricing page using the three supplied PDFs.
+- [x] Validate PDF previews and download links on the rendered Book Work page; mobile follow-up can be checked in the next responsive pass.
