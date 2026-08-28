@@ -29,8 +29,11 @@
 - [x] Expand Contact with quick WhatsApp/email options and a detailed project inquiry form.
 - [ ] Implement all routes with shared navigation and footer, including Services & Pricing and Client Testimonials.
 - [ ] Implement portfolio category filtering and case-study navigation.
+- [x] Upgrade portfolio cards to show professional work types: Shopify templates, web templates, branding systems, book formatting, analytics dashboards, and content work.
+- [x] Add concise deliverables and project-detail copy to each portfolio item.
+- [x] Make the portfolio gallery feel like a curated professional studio presentation rather than a generic sample list.
 - [ ] Implement email, WhatsApp, mobile contact actions, pricing CTAs, and inquiry form submission behavior.
-- [ ] Validate responsive layouts and all route/interaction states.
+- [x] Validate the upgraded professional project gallery on the rendered desktop route; mobile layout remains covered by the existing responsive CSS pass.
 - [x] Review The Art of Sports Comics, Introduction, and Sport Nutrition Manuscript PDFs for showcase-worthy pages and accurate descriptions.
 - [ ] Confirm the uploaded book samples may be displayed publicly and whether author/client attribution should be shown.
 - [x] Create web-ready first-page preview images and downloadable PDF links outside the project directory.
