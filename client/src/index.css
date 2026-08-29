@@ -262,3 +262,16 @@ h1 span, h2 span { color: var(--orange); }
 .success-mark { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--orange); border-radius: 50%; color: var(--orange); }
 @media (max-width: 760px) { .consultation-section { grid-template-columns: 1fr; gap: 32px; } .consultation-form { padding: 22px 18px; } .site-header { position: sticky; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .tools-marquee { animation: none; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+/* Founder spotlight: portrait-led editorial identity section for the homepage-only studio experience. */
+.founder-spotlight { display: grid; grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr); gap: clamp(38px, 8vw, 120px); align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: radial-gradient(circle at 12% 38%, rgba(192,148,105,.16), transparent 35%), rgba(15,11,9,.55); }
+.founder-portrait-frame { position: relative; max-width: 430px; margin: 0 auto; border: 1px solid rgba(209,170,129,.35); padding: 11px; transform: rotate(-1.5deg); background: linear-gradient(145deg, rgba(209,170,129,.15), rgba(255,255,255,.02)); box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+.founder-portrait-frame::before { content: ''; position: absolute; inset: 22px -17px -17px 22px; border: 1px solid rgba(239,138,66,.28); z-index: -1; }
+.founder-portrait-frame img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; filter: grayscale(.16) contrast(1.04) saturate(.8); }
+.portrait-caption { position: absolute; right: -28px; bottom: 28px; padding: 11px 14px; background: var(--orange); color: #17100b; font-family: 'Fraunces', Georgia, serif; font-size: 14px; line-height: 1.05; transform: rotate(2deg); box-shadow: 0 12px 24px rgba(0,0,0,.24); }
+.portrait-caption b { display: block; font-family: 'DM Sans', sans-serif; font-size: 8px; letter-spacing: .12em; text-transform: uppercase; margin-top: 5px; }
+.founder-spotlight-copy h2 { max-width: 720px; margin: 18px 0 24px; font-size: clamp(40px, 5.7vw, 75px); line-height: .94; font-weight: 500; }
+.founder-spotlight-copy h2 span { color: var(--orange); }
+.founder-spotlight-copy > p:not(.eyebrow) { max-width: 620px; color: var(--muted); line-height: 1.75; font-size: 14px; }
+.founder-spotlight-copy .arrow-link { margin-top: 10px; }
+@media (max-width: 760px) { .founder-spotlight { grid-template-columns: 1fr; gap: 34px; } .founder-portrait-frame { max-width: 300px; margin-left: 10px; } .portrait-caption { right: -17px; bottom: 22px; } .founder-spotlight-copy h2 { font-size: clamp(42px, 12vw, 62px); } }
