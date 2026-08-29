@@ -22,6 +22,11 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Review https://lukecarlshealth-fitness.myshopify.com/?pb=0 as a real Shopify project reference.
+- [x] Review https://auraliswellnesshealth.com/ as a real website project reference.
+- [x] User confirmed both websites are work they designed; document them as real website projects without inventing client outcome claims.
+- [x] Add both real website projects to the Portfolio with external links and accurate service labels.
+- [x] Validate the external project links and responsive portfolio presentation on desktop and mobile renders.
 - [x] Add international currency localization to the Pricing page.
 - [x] Use fixed studio-controlled display rates for the first release; live exchange rates can be added later if desired.
 - [x] Support NGN, USD, GBP, EUR, CAD, AUD, GHS, KES, and ZAR with a clear final-quote disclaimer.
