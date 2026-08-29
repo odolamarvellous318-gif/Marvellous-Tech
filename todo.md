@@ -22,6 +22,11 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Restrict the full website palette to red, black, white, and blue only.
+- [x] Replace generic platform marks with official platform logo URLs/marks where available; keep any unavailable mark as a labeled fallback.
+- [x] Add short descriptions explaining how each platform supports Marvellous Studio services.
+- [x] Add real project screenshots beneath the Tools & Platforms strip.
+- [x] Validate the four-color system, logo contrast, and screenshot layout on desktop and mobile.
 - [x] Replace text-only Tools & Platforms items with recognizable platform logo marks.
 - [x] Change the Tools & Platforms section to a warm white contrast panel for stronger logo visibility.
 - [x] Keep platform marks visually consistent with the luxury site and avoid implying unsupported partnerships.

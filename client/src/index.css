@@ -293,3 +293,21 @@ h1 span, h2 span { color: var(--orange); }
 .platform-mark img { filter: grayscale(1) brightness(.26); opacity: .88; }
 .platform-mark i { color: #b65f31; }
 .platform-fallback { border-color: rgba(23,19,15,.7); color: #17130f; }
+
+/* Real-project proof beneath the tools panel: connect platform capability to visible storefront work. */
+.platform-copy { display: grid; gap: 3px; }
+.platform-copy em { font-style: normal; }
+.platform-copy small { color: rgba(23,19,15,.56); font-size: 9px; letter-spacing: .04em; text-transform: none; }
+.live-proof { background: rgba(8,7,6,.2); }
+.live-proof-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.live-proof-card { background: rgba(25,19,15,.8); border: 1px solid var(--line); transition: transform .24s cubic-bezier(.23,1,.32,1), border-color .24s ease; }
+.live-proof-card:hover { transform: translateY(-5px); border-color: rgba(239,138,66,.72); }
+.live-proof-image { position: relative; height: 285px; overflow: hidden; background: #12100e; }
+.live-proof-image img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: top center; filter: saturate(.78) contrast(1.04); transition: transform .4s cubic-bezier(.23,1,.32,1); }
+.live-proof-card:hover .live-proof-image img { transform: scale(1.035); }
+.live-proof-image span { position: absolute; top: 15px; left: 15px; padding: 7px 9px; background: rgba(8,7,6,.82); color: #f0d6bb; font-size: 9px; text-transform: uppercase; letter-spacing: .11em; }
+.live-proof-meta { display: flex; justify-content: space-between; gap: 20px; padding: 20px 18px 21px; }
+.live-proof-meta h3 { margin: 9px 0 5px; font-family: 'Fraunces', Georgia, serif; font-size: 25px; font-weight: 500; }
+.live-proof-meta p:not(.eyebrow) { margin: 0; color: var(--muted); font-size: 12px; }
+.live-proof-meta > svg { color: var(--orange); flex: 0 0 auto; }
+@media (max-width: 760px) { .live-proof-grid { grid-template-columns: 1fr; } .live-proof-image { height: 225px; } .platform-copy small { font-size: 8px; } }
