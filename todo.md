@@ -22,6 +22,10 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Inspect https://blessedagenci.netlify.app/ as the visual ground-truth reference.
+- [x] Record its layout, typography, colors, navigation, motion, and responsive patterns.
+- [x] Translate the reference style to Marvellous Studio without removing real projects, book work, pricing, or contact functionality.
+- [x] Validate the reference-inspired redesign on desktop and mobile.
 - [x] Review https://lukecarlshealth-fitness.myshopify.com/?pb=0 as a real Shopify project reference.
 - [x] Review https://auraliswellnesshealth.com/ as a real website project reference.
 - [x] User confirmed both websites are work they designed; document them as real website projects without inventing client outcome claims.

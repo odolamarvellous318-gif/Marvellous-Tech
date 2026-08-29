@@ -59,3 +59,7 @@ Clay Red — #D9674E.
 
 ## Content Structure
 The first delivery is a single-page portfolio platform with a sticky header, a hero introduction, selected work, a concise service menu, a studio/about statement, a process strip, and a contact footer. The placeholder identity is “Mara / Studio” so the user can replace the name and details with their own. Navigation anchors are functional, project links open lightweight detail dialogs, and the contact CTA opens a mailto link.
+
+## Reference Alignment — Blessed Agencia
+
+The user selected https://blessedagenci.netlify.app/ as the visual reference. Treat its dark editorial agency composition, expressive serif display typography, compact uppercase metadata, numbered sections, hairline dividers, rounded CTA controls, proof strip, service rows, category pricing, FAQ rhythm, and calm inquiry form as the ground-truth experience to emulate. Preserve Marvellous Studio's orange signature accent, supplied logo, real website projects, book-work samples, pricing, currency selector, and contact details rather than copying Blessed Agencia's identity or content.
