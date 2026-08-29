@@ -22,6 +22,13 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Create and validate a reusable Marvellous Studio luxury homepage workflow skill with skill-creator.
+- [x] Add smooth reveal/hover motion to service rows and FAQ interaction states.
+- [x] Add a sticky glassmorphism navigation treatment for the homepage.
+- [x] Add a Book a Consultation CTA section with a sleek homepage contact form.
+- [x] Add a conditional redirect notice only when an old-link redirect is detected.
+- [x] Track homepage anchor navigation analytics without blocking the experience.
+- [ ] Test the published main domain and any available custom domain links.
 - [x] Convert the public experience to a homepage-only scroll; keep supporting routes out of the primary navigation.
 - [x] Add subtle luxury glow accents with restrained gold and lime highlights.
 - [x] Refine service rows into numbered editorial rows with clear scope links.
