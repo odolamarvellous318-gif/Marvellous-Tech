@@ -22,6 +22,13 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Convert the public experience to a homepage-only scroll; keep supporting routes out of the primary navigation.
+- [x] Add subtle luxury glow accents with restrained gold and lime highlights.
+- [x] Refine service rows into numbered editorial rows with clear scope links.
+- [x] Add an FAQ accordion section to the homepage.
+- [x] Add a tools/platform proof strip for relevant studio capabilities.
+- [x] Compose portfolio, book work, pricing, currency selector, and contact into the homepage flow.
+- [x] Validate homepage-only navigation and responsive behavior on desktop and mobile.
 - [x] Elevate the site with a luxurious store-inspired background and premium visual material system.
 - [x] Define the luxury palette, texture, lighting, surface, and typography treatment without losing Marvellous Studio's orange accent.
 - [x] Add premium background depth and refined component polish across the homepage, portfolio, pricing, book work, and contact routes.

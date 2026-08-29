@@ -5,10 +5,10 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { AboutPage, BookWorkPage, CaseStudiesPage, ContactPageV2, HomePage, PortfolioPage, PricingPage, ServicesPage, TestimonialsPage } from "./pages/SitePages";
+import { HomePage } from "./pages/SitePages";
 
 function Router() {
-  return <Switch><Route path="/" component={HomePage} /><Route path="/about" component={AboutPage} /><Route path="/services" component={ServicesPage} /><Route path="/pricing" component={PricingPage} /><Route path="/book-work" component={BookWorkPage} /><Route path="/testimonials" component={TestimonialsPage} /><Route path="/portfolio" component={PortfolioPage} /><Route path="/case-studies" component={CaseStudiesPage} /><Route path="/contact" component={ContactPageV2} /><Route path="/404" component={NotFound} /><Route component={NotFound} /></Switch>;
+  return <Switch><Route path="/" component={HomePage} /><Route path="/404" component={NotFound} /><Route component={NotFound} /></Switch>;
 }
 
 export default function App() {
