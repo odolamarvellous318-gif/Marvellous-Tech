@@ -19,3 +19,19 @@
 - The homepage uses collection CTAs and product recommendations to support e-commerce discovery.
 - The visible site indicates a real Shopify/e-commerce design project suitable for a second portfolio entry; exact contribution scope still needs confirmation from the user.
 - The site contains customer testimonial copy, but it should not be copied into Marvellous Studio without explicit permission and approved attribution from the user.
+
+
+## Official Amazon KDP asset guidance
+
+Source: https://kdp.amazon.com/en_US/help/topic/G9WES4WJAC3GUVSV
+
+Amazon KDP's official guidance authorizes the “Available at Amazon” badge for KDP publishers when used unchanged, in full, with reasonable spacing, and only to advertise that books are available on an Amazon website. The guidance says not to imply Amazon sponsorship or endorsement and provides official downloadable screen assets. The portfolio uses the authorized badge rather than inventing a KDP logo.
+
+Source: https://press.aboutamazon.com/logos
+
+Amazon Press Center official logo source consulted for brand-asset provenance. No generic KDP logo asset was used from a third-party source.
+
+Live project sources:
+
+- https://lukecarlshealth-fitness.myshopify.com/?pb=0 — live Shopify fitness storefront reviewed for project proof.
+- https://auraliswellnesshealth.com/ — live wellness and fitness storefront reviewed for project proof.

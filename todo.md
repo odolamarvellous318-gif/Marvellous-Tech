@@ -22,6 +22,15 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Add polished template showcase projects for web, Shopify, landing pages, dashboards, and publishing.
+- [x] Label every template clearly as Studio Template or Concept Template.
+- [x] Keep live Shopify storefronts visually distinct from template showcase work.
+- [x] Add template-specific contribution notes without claiming client outcomes.
+- [x] Replace the KDP fallback with Amazon's official authorized “Available at Amazon” badge for KDP publishers.
+- [x] Add more polished studio template screenshots; additional real client URLs can be added later when supplied.
+- [x] Add contribution and verified/use-case notes beneath live and template project screenshots without inventing client outcomes.
+- [x] Refresh and validate the reusable Marvellous Luxury Homepage skill with the platform-logo, template, and project-proof workflow.
+- [x] Validate the expanded proof section and updated logo treatment on desktop and mobile.
 - [x] Restrict the full website palette to red, black, white, and blue only.
 - [x] Replace generic platform marks with official platform logo URLs/marks where available; keep any unavailable mark as a labeled fallback.
 - [x] Add short descriptions explaining how each platform supports Marvellous Studio services.
