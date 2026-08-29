@@ -29,6 +29,7 @@
 - [x] Add a tools/platform proof strip for relevant studio capabilities.
 - [x] Compose portfolio, book work, pricing, currency selector, and contact into the homepage flow.
 - [x] Validate homepage-only navigation and responsive behavior on desktop and mobile.
+- [x] Remove the visible 404 experience; unknown URLs now render the homepage.
 - [x] Elevate the site with a luxurious store-inspired background and premium visual material system.
 - [x] Define the luxury palette, texture, lighting, surface, and typography treatment without losing Marvellous Studio's orange accent.
 - [x] Add premium background depth and refined component polish across the homepage, portfolio, pricing, book work, and contact routes.
