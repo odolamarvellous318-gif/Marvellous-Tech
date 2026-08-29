@@ -275,3 +275,10 @@ h1 span, h2 span { color: var(--orange); }
 .founder-spotlight-copy > p:not(.eyebrow) { max-width: 620px; color: var(--muted); line-height: 1.75; font-size: 14px; }
 .founder-spotlight-copy .arrow-link { margin-top: 10px; }
 @media (max-width: 760px) { .founder-spotlight { grid-template-columns: 1fr; gap: 34px; } .founder-portrait-frame { max-width: 300px; margin-left: 10px; } .portrait-caption { right: -17px; bottom: 22px; } .founder-spotlight-copy h2 { font-size: clamp(42px, 12vw, 62px); } }
+
+/* Platform proof marks: recognizable logo silhouettes with quiet labels for the luxury strip. */
+.platform-mark { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; color: #d8cfc3; }
+.platform-mark img { width: 22px; height: 22px; object-fit: contain; opacity: .82; filter: grayscale(1); }
+.platform-mark em { font-style: normal; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.platform-mark i { margin-left: 28px; }
+.platform-fallback { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid rgba(216,207,195,.7); border-radius: 4px; color: #d8cfc3; font-size: 7px; letter-spacing: .02em; }

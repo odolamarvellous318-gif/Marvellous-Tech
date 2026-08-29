@@ -22,6 +22,9 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Replace text-only Tools & Platforms items with recognizable platform logo marks.
+- [x] Keep platform marks visually consistent with the luxury site and avoid implying unsupported partnerships.
+- [x] Validate logo readability and spacing on desktop and mobile.
 - [x] Add Odola Temidayo Marvellous’s supplied portrait to the homepage founder identity section.
 - [x] Prepare a web-ready copy in the shared asset area without reopening the supplied image.
 - [x] Validate the portrait crop, contrast, and responsive presentation on desktop and mobile.
