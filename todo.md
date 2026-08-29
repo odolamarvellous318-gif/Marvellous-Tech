@@ -22,6 +22,10 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Elevate the site with a luxurious store-inspired background and premium visual material system.
+- [x] Define the luxury palette, texture, lighting, surface, and typography treatment without losing Marvellous Studio's orange accent.
+- [x] Add premium background depth and refined component polish across the homepage, portfolio, pricing, book work, and contact routes.
+- [x] Validate the luxury redesign on desktop and mobile.
 - [x] Inspect https://blessedagenci.netlify.app/ as the visual ground-truth reference.
 - [x] Record its layout, typography, colors, navigation, motion, and responsive patterns.
 - [x] Translate the reference style to Marvellous Studio without removing real projects, book work, pricing, or contact functionality.
