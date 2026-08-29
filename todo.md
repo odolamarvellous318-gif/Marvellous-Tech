@@ -23,6 +23,7 @@
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
 - [x] Replace text-only Tools & Platforms items with recognizable platform logo marks.
+- [x] Change the Tools & Platforms section to a warm white contrast panel for stronger logo visibility.
 - [x] Keep platform marks visually consistent with the luxury site and avoid implying unsupported partnerships.
 - [x] Validate logo readability and spacing on desktop and mobile.
 - [x] Add Odola Temidayo Marvellous’s supplied portrait to the homepage founder identity section.

@@ -282,3 +282,14 @@ h1 span, h2 span { color: var(--orange); }
 .platform-mark em { font-style: normal; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
 .platform-mark i { margin-left: 28px; }
 .platform-fallback { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid rgba(216,207,195,.7); border-radius: 4px; color: #d8cfc3; font-size: 7px; letter-spacing: .02em; }
+
+/* Light contrast interlude: the platform proof panel intentionally breaks the dark canvas for visibility. */
+.tools-strip { background: #f3eee7; color: #17130f; border-color: rgba(23,19,15,.15); }
+.tools-strip-head { border-color: rgba(23,19,15,.14); }
+.tools-strip-head .eyebrow { color: #b65f31; }
+.tools-strip-head span { color: rgba(23,19,15,.62); }
+.tools-marquee { color: #17130f; }
+.platform-mark { color: #17130f; }
+.platform-mark img { filter: grayscale(1) brightness(.26); opacity: .88; }
+.platform-mark i { color: #b65f31; }
+.platform-fallback { border-color: rgba(23,19,15,.7); color: #17130f; }
