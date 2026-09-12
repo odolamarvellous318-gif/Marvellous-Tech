@@ -22,6 +22,9 @@
 - [x] Use the supplied clean Marvellous Studio logo asset in the header and brand touchpoints.
 - [x] Add Odola Temidayo Marvellous, Founder & Creative Director, to the About page using the approved introduction.
 - [ ] Add social profile links when supplied.
+- [x] Confirm the GitHub account owner: odolamarvellous318-gif; use the existing public Marvellous-Tech repository.
+- [x] Enable and authorize the GitHub integration before pushing source code.
+- [ ] Push the latest checkpoint source to the existing public Marvellous-Tech repository and verify the repository URL.
 - [x] Add polished template showcase projects for web, Shopify, landing pages, dashboards, and publishing.
 - [x] Label every template clearly as Studio Template or Concept Template.
 - [x] Keep live Shopify storefronts visually distinct from template showcase work.
