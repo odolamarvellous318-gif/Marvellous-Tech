@@ -5,3 +5,5 @@ The single-file export `marvellous-studio.html` opens successfully from a local 
 The browser interaction pass also confirmed that the FAQ controls are present and the currency selector changes the visible package prices from NGN to USD, showing $47+, $188+, and $250+ for the sample packages. The standalone page remains visually rendered after the image inlining step.
 
 Refinement validation: the standalone file reopened successfully after data-URI optimization, six embedded images are now WebP, and the file size dropped from approximately 7,767,170 bytes to 485,987 bytes. The browser preview rendered the light theme automatically, exposed the theme toggle with the correct “Switch to dark mode” label, and returned to dark mode after clicking it with the label changing to “Switch to light mode.”
+
+Logo update validation: the supplied `MarvellousTech.png` is embedded into the standalone file for the header, footer, and favicon. The browser preview shows the Marvellous Tech mark in the header, while the existing hero and portfolio imagery remain rendered. Theme toggle and navigation controls remain present.
